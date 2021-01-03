@@ -4,16 +4,16 @@ sort: 1
 
 # SDN 기본개념
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+Text can be **bold**, _italic_, or \~\~strikethrough\~\~. [Links][1] should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
 > There should be no margin above this first sentence.
->
+> 
 > Blockquotes should be a lighter gray with a gray border along the left side.
->
+> 
 > There should be no margin below this final sentence.
 
 # Header 1
@@ -133,7 +133,7 @@ If a table is too wide, it should condense down and/or scroll horizontally.
 
 Code snippets like `var foo = "bar";` can be shown inline.
 
-Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
+Also, `this should vertically align` \~\~`with this`\~\~ \~\~and this\~\~.
 
 Code can also be shown in a block element.
 
@@ -167,12 +167,17 @@ Inline code inside table cells should still be distinguishable.
 
 Small images should be shown at their actual size.
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Octocat][image-1]
 
 Large images should always scale down and fit in the content container.
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching][image-2]
 
 ```
 This is the final element on the page and there should be no margin below this.
 ```
+
+[1]:	https://github.com
+
+[image-1]:	https://github.githubassets.com/images/icons/emoji/octocat.png
+[image-2]:	https://guides.github.com/activities/hello-world/branching.png
